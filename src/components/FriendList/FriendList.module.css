@@ -1,0 +1,39 @@
+
+.friend-list{
+margin:0 auto;
+padding: 40px 40px;
+
+}
+.item{
+    padding: 5px 10px;
+width:280px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin:5px 0;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+.onLine{
+display:block;
+margin-right: 10px;
+width:15px;
+height: 15px;
+border-radius: 50%;
+background-color: green;
+}
+.ofLine{
+    display: block;
+    margin-right: 10px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: red;
+
+}
+.avatar{
+    margin-right: 10px;
+}
+.name{
+    font-size: 26px;
+}

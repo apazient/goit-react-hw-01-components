@@ -1,0 +1,28 @@
+.transaction-history{
+   width:1080px;
+    border-collapse: colla
+}
+thead{
+font-size: 18px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    
+}
+thead th{
+    padding: 10px 20px;
+    border-right: 1px solid lightgrey;
+}
+tbody{
+   
+    font-size: 14px;
+    text-align: center;
+    color:grey;
+}
+tbody td{
+    padding: 10px 20px;
+    border-right:1px solid lightgrey;
+}
+tbody tr:nth-child(2n){
+background-color: lightgrey;
+}
